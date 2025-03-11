@@ -158,3 +158,4 @@ final class DessertsViewModelTests: XCTestCase {
         XCTAssertNotNil(sut.error)
     }
 }
+

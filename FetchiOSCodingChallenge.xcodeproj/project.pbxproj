@@ -7,14 +7,7 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		5812381B2D80AAC500418C35 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 581238022D80AAC300418C35 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 581238092D80AAC300418C35;
-			remoteInfo = FetchiOSCodingChallenge;
-		};
-		581238252D80AAC500418C35 /* PBXContainerItemProxy */ = {
+		5812391E2D80C5D000418C35 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 581238022D80AAC300418C35 /* Project object */;
 			proxyType = 1;
@@ -25,19 +18,8 @@
 
 /* Begin PBXFileReference section */
 		5812380A2D80AAC300418C35 /* FetchiOSCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchiOSCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5812381A2D80AAC500418C35 /* FetchiOSCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchiOSCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		581238242D80AAC500418C35 /* FetchiOSCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchiOSCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5812391A2D80C5D000418C35 /* FetchiOSCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchiOSCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		581238672D80BE6C00418C35 /* Exceptions for "FetchiOSCodingChallengeTests" folder in "FetchiOSCodingChallengeTests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				FetchiOSCodingChallengeTests.swift,
-			);
-			target = 581238192D80AAC500418C35 /* FetchiOSCodingChallengeTests */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5812380C2D80AAC300418C35 /* FetchiOSCodingChallenge */ = {
@@ -45,16 +27,8 @@
 			path = FetchiOSCodingChallenge;
 			sourceTree = "<group>";
 		};
-		581238272D80AAC500418C35 /* FetchiOSCodingChallengeUITests */ = {
+		5812391B2D80C5D000418C35 /* FetchiOSCodingChallengeTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FetchiOSCodingChallengeUITests;
-			sourceTree = "<group>";
-		};
-		581238642D80BE6C00418C35 /* FetchiOSCodingChallengeTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				581238672D80BE6C00418C35 /* Exceptions for "FetchiOSCodingChallengeTests" folder in "FetchiOSCodingChallengeTests" target */,
-			);
 			path = FetchiOSCodingChallengeTests;
 			sourceTree = "<group>";
 		};
@@ -68,14 +42,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		581238172D80AAC500418C35 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		581238212D80AAC500418C35 /* Frameworks */ = {
+		581239172D80C5D000418C35 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -89,8 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				5812380C2D80AAC300418C35 /* FetchiOSCodingChallenge */,
-				581238642D80BE6C00418C35 /* FetchiOSCodingChallengeTests */,
-				581238272D80AAC500418C35 /* FetchiOSCodingChallengeUITests */,
+				5812391B2D80C5D000418C35 /* FetchiOSCodingChallengeTests */,
 				5812380B2D80AAC300418C35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,8 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				5812380A2D80AAC300418C35 /* FetchiOSCodingChallenge.app */,
-				5812381A2D80AAC500418C35 /* FetchiOSCodingChallengeTests.xctest */,
-				581238242D80AAC500418C35 /* FetchiOSCodingChallengeUITests.xctest */,
+				5812391A2D80C5D000418C35 /* FetchiOSCodingChallengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,7 +87,6 @@
 			);
 			fileSystemSynchronizedGroups = (
 				5812380C2D80AAC300418C35 /* FetchiOSCodingChallenge */,
-				581238642D80BE6C00418C35 /* FetchiOSCodingChallengeTests */,
 			);
 			name = FetchiOSCodingChallenge;
 			packageProductDependencies = (
@@ -131,48 +95,28 @@
 			productReference = 5812380A2D80AAC300418C35 /* FetchiOSCodingChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
-		581238192D80AAC500418C35 /* FetchiOSCodingChallengeTests */ = {
+		581239192D80C5D000418C35 /* FetchiOSCodingChallengeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 581238312D80AAC500418C35 /* Build configuration list for PBXNativeTarget "FetchiOSCodingChallengeTests" */;
+			buildConfigurationList = 581239202D80C5D000418C35 /* Build configuration list for PBXNativeTarget "FetchiOSCodingChallengeTests" */;
 			buildPhases = (
-				581238162D80AAC500418C35 /* Sources */,
-				581238172D80AAC500418C35 /* Frameworks */,
-				581238182D80AAC500418C35 /* Resources */,
+				581239162D80C5D000418C35 /* Sources */,
+				581239172D80C5D000418C35 /* Frameworks */,
+				581239182D80C5D000418C35 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5812381C2D80AAC500418C35 /* PBXTargetDependency */,
+				5812391F2D80C5D000418C35 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5812391B2D80C5D000418C35 /* FetchiOSCodingChallengeTests */,
 			);
 			name = FetchiOSCodingChallengeTests;
 			packageProductDependencies = (
 			);
 			productName = FetchiOSCodingChallengeTests;
-			productReference = 5812381A2D80AAC500418C35 /* FetchiOSCodingChallengeTests.xctest */;
+			productReference = 5812391A2D80C5D000418C35 /* FetchiOSCodingChallengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		581238232D80AAC500418C35 /* FetchiOSCodingChallengeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 581238342D80AAC500418C35 /* Build configuration list for PBXNativeTarget "FetchiOSCodingChallengeUITests" */;
-			buildPhases = (
-				581238202D80AAC500418C35 /* Sources */,
-				581238212D80AAC500418C35 /* Frameworks */,
-				581238222D80AAC500418C35 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				581238262D80AAC500418C35 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				581238272D80AAC500418C35 /* FetchiOSCodingChallengeUITests */,
-			);
-			name = FetchiOSCodingChallengeUITests;
-			packageProductDependencies = (
-			);
-			productName = FetchiOSCodingChallengeUITests;
-			productReference = 581238242D80AAC500418C35 /* FetchiOSCodingChallengeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -187,11 +131,7 @@
 					581238092D80AAC300418C35 = {
 						CreatedOnToolsVersion = 16.1;
 					};
-					581238192D80AAC500418C35 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 581238092D80AAC300418C35;
-					};
-					581238232D80AAC500418C35 = {
+					581239192D80C5D000418C35 = {
 						CreatedOnToolsVersion = 16.1;
 						TestTargetID = 581238092D80AAC300418C35;
 					};
@@ -212,8 +152,7 @@
 			projectRoot = "";
 			targets = (
 				581238092D80AAC300418C35 /* FetchiOSCodingChallenge */,
-				581238192D80AAC500418C35 /* FetchiOSCodingChallengeTests */,
-				581238232D80AAC500418C35 /* FetchiOSCodingChallengeUITests */,
+				581239192D80C5D000418C35 /* FetchiOSCodingChallengeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,14 +165,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		581238182D80AAC500418C35 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		581238222D80AAC500418C35 /* Resources */ = {
+		581239182D80C5D000418C35 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -250,14 +182,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		581238162D80AAC500418C35 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		581238202D80AAC500418C35 /* Sources */ = {
+		581239162D80C5D000418C35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -267,15 +192,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5812381C2D80AAC500418C35 /* PBXTargetDependency */ = {
+		5812391F2D80C5D000418C35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 581238092D80AAC300418C35 /* FetchiOSCodingChallenge */;
-			targetProxy = 5812381B2D80AAC500418C35 /* PBXContainerItemProxy */;
-		};
-		581238262D80AAC500418C35 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 581238092D80AAC300418C35 /* FetchiOSCodingChallenge */;
-			targetProxy = 581238252D80AAC500418C35 /* PBXContainerItemProxy */;
+			targetProxy = 5812391E2D80C5D000418C35 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -457,7 +377,7 @@
 			};
 			name = Release;
 		};
-		581238322D80AAC500418C35 /* Debug */ = {
+		581239212D80C5D000418C35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -465,7 +385,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CWK72AZ43K;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nickharvey.FetchiOSCodingChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -476,7 +395,7 @@
 			};
 			name = Debug;
 		};
-		581238332D80AAC500418C35 /* Release */ = {
+		581239222D80C5D000418C35 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,7 +403,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CWK72AZ43K;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nickharvey.FetchiOSCodingChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -492,40 +410,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchiOSCodingChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FetchiOSCodingChallenge";
-			};
-			name = Release;
-		};
-		581238352D80AAC500418C35 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CWK72AZ43K;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickharvey.FetchiOSCodingChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FetchiOSCodingChallenge;
-			};
-			name = Debug;
-		};
-		581238362D80AAC500418C35 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CWK72AZ43K;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickharvey.FetchiOSCodingChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FetchiOSCodingChallenge;
 			};
 			name = Release;
 		};
@@ -550,20 +434,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		581238312D80AAC500418C35 /* Build configuration list for PBXNativeTarget "FetchiOSCodingChallengeTests" */ = {
+		581239202D80C5D000418C35 /* Build configuration list for PBXNativeTarget "FetchiOSCodingChallengeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				581238322D80AAC500418C35 /* Debug */,
-				581238332D80AAC500418C35 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		581238342D80AAC500418C35 /* Build configuration list for PBXNativeTarget "FetchiOSCodingChallengeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				581238352D80AAC500418C35 /* Debug */,
-				581238362D80AAC500418C35 /* Release */,
+				581239212D80C5D000418C35 /* Debug */,
+				581239222D80C5D000418C35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
